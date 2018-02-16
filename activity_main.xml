@@ -24,23 +24,31 @@
         android:scaleType="fitCenter"/>
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:gravity="center_horizontal"
+        style="@style/MoreInfoText"
         android:paddingTop="16dp"
-        android:textSize="24sp"
-        android:textColor="#000000"
-        android:text="Find this course and more at\nwww.udacity.com" />
+        android:text="@string/this_and_more" />
 
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="#FFFFFF"
-        android:gravity="center_horizontal"
+        style="@style/MoreInfoText"
+        android:text="@string/website" />
+
+    <TextView
+        style="@style/ContactText"
         android:paddingTop="8dp"
+        android:text="@string/company_name" />
+
+    <TextView
+        style="@style/ContactText"
+        android:text="@string/company_address_1" />
+
+    <TextView
+        style="@style/ContactText"
+        android:text="@string/company_address_2" />
+
+    <TextView
+        style="@style/ContactText"
         android:paddingBottom="16dp"
-        android:textSize="16sp"
-        android:text="Udacity\n2465 Latham St\nMountain View, CA 94043\n650-555-5555" />
+        android:text="@string/company_phone" />
+        <!--add icons with DrawableLeft?-->
 
 </LinearLayout>
